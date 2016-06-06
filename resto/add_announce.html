@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Criar Anúncio</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+    <body>
+        <header>
+            <div class="logo"></div>
+            <div class="name"></div>
+            <div class="profile"></div>
+            <div class="announces"></div>
+            <div class="exit"></div>
+        </header>
+
+		<form  action="php/addAnnounce.php" method="POST" class="Form">
+			<h1>Crie um anúncio</h1>
+		
+			<p>Título</p>
+			<input type="text" name="Title" id="title">
+			
+			<p>Preço</p>
+			<input type="text" name="Price" id="price">
+			
+			<p>Observações</p>
+			<input type="text" name="Description" id="description">
+			
+			<p>Aceita Trocas</p>
+			<input type="checkbox" name="Trade" id="trade">
+			
+			<br/>
+			
+			<input type="submit" value="send">
+		</form>
+		
+<!-- Ínicio do Rodapé -->        
+
+        <footer></footer>
+    </body>
+</html>

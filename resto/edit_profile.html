@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>Anúncios</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>
+	<script>
+function validarSenha(){
+	password1 = document.f1.password1.value
+	password2 = document.f1.password2.value
+ 
+	if (password1 == password2)
+		alert("SENHAS IGUAIS")
+	else
+		alert("SENHAS DIFERENTES")
+}
+</script>
+    <body>
+        <header>
+            <div class="logo"></div>
+            <div class="name"></div>
+            <div class="profile"></div>
+            <div class="announces"></div>
+            <div class="exit"></div>
+        </header>
+       <h1><p>Editar Perfil</p></h1>
+	   <form action="" name="f1">
+	   <p>Nome</p>
+      <input type="text" name="Nome" id="Name" value="">
+	  <br>
+	   <p>E-mail</p>
+	  <input type="text" name="E-mail" id="E-mail" value="">
+	  <br>
+	   <p>Senha</p>
+	    <input type="password" name="password1" id="Password" value="">
+		<br>
+	   <p>Confirme a senha</p>
+	   <input type="password" name="password2" id="Password2" value="">
+	   <br>
+	   <input type="button" value="Validar" onClick="validarSenha()">
+	   <br>
+	   <p>Aceito Trocas:<input type="checkbox" name="opcao" value=""></p>
+	   <input type="submit" name="b1" value="Enviar">
+	   </form>
+	   
+	   <!-- Ínicio do Rodapé -->        
+
+        <footer></footer>
+    </body>
+</html>
+	  

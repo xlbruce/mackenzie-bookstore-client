@@ -1,0 +1,198 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+
+width:100%;
+height:100%;
+background-color:#e3d2d2;
+}
+
+header {
+
+width:100%;
+height:100px;
+background-color:#a42a2e;
+position:absolute;
+margin: -20px 0px 0px -2px;}
+
+h1{
+
+color:#FFFFFF;
+font-family:"Georgia", "Times New Roman", Times, serif;
+font-style:italic;
+font-size:48px;
+margin-left:55px;
+}
+
+.form{
+    width:1030px;
+    height:40px;;
+    margin: -40px 0px 0px 850px;
+    
+
+}
+
+.label {
+
+width: 98px;
+height:38px;
+margin: 0px 0px 0px 0px;
+color:#FFFFFF;
+font-family:"Georgia", "Times New Roman", Times, serif;
+font-size:22px;}
+
+.label1{
+width: 50px;
+height:38px;
+margin: -30px 0px 0px 500px;
+color:#FFFFFF;
+font-family:"Georgia", "Times New Roman", Times, serif;
+font-size:22px;}
+
+.Lcode {
+
+width:300px;
+height:28px;
+color: #781134;
+margin: -45px 0px 0px 0px;
+}
+
+.LPassword {
+width:300px;
+height:28px;
+margin: 0px 0px 0px 590px;
+position:relative;
+top: -40px;
+}
+
+.button {
+color:#FFFFFF;
+font-family:"Georgia", "Times New Roman", Times, serif;
+font-size:20px;
+border-bottom-style:none;
+position:relative;
+top: -37px;
+margin-left: 50px;
+background-color:#781114;
+border-radius: 10px;}
+
+h3{
+color:#7c1215;
+font-family:"Georgia", "Times New Roman", Times, serif;
+font-style:italic;
+font-size:38px;
+position:relative;
+top:150px;
+margin-left:360px;
+}
+
+.CALabel {
+width: 98px;
+height:38px;
+color:#7c1215;
+margin: 200px 0px 0px 200px;
+font-family:"Georgia", "Times New Roman", Times, serif;
+font-size:22px;
+}
+
+.CAEmail {
+
+width:300px;
+height:28px;
+margin: -45px 0px 0px 330px;
+}
+
+.CTLabel{
+width: 98px;
+height:38px;
+color:#7c1215;
+margin: 40px 0px 0px 200px;
+font-family:"Georgia", "Times New Roman", Times, serif;
+font-size:22px;
+}
+
+.CATIA {
+width:300px;
+height:28px;
+margin: -45px 0px 0px 330px;
+}
+
+.CSLabel{
+width: 98px;
+height:38px;
+color:#7c1215;
+margin: 40px 0px 0px 200px;
+font-family:"Georgia", "Times New Roman", Times, serif;
+font-size:22px;
+
+}
+.CASenha{
+width:300px;
+height:28px;
+margin: 0px 0px 0px 330px;
+position:relative;
+top: -75px;
+}
+.CAName{
+ width:300px;
+height:28px;
+margin: 0px 0px 0px 330px;
+position:relative;
+top: -35px;   
+}
+
+.CAbutton {
+color:#FFFFFF;
+font-family:"Georgia", "Times New Roman", Times, serif;
+font-size:22px;
+border-bottom-style:none;
+margin-left: -115px;
+margin-top: 30px;
+background-color:#781114;
+
+}
+
+aside {
+width: 700px;
+height: 400px;
+margin: -470px 0px 0px 1050px;
+}
+
+h2{
+color:#7c1215;
+font-family:"Georgia", "Times New Roman", Times, serif;
+font-style:italic;
+font-size:38px;;
+margin-left:220px;
+}
+
+.texto {
+color:#7c1215;
+width: 400px;
+font-family:"Georgia", "Times New Roman", Times, serif;
+font-style:italic;
+font-size:20px;
+margin: 50px 0px 0px 150px;
+
+}
+
+footer {
+width:100%;
+height:75px;
+background-color:#9e0b0f;
+margin:298px 0px 0px 0px ;
+}
+
+direitos {
+color:#FFF;
+width: 400px;
+font-family:"Georgia", "Times New Roman", Times, serif;
+font-style:italic;
+font-size:16px;
+position:relative;
+top:25px; 
+margin: 50px 0px 0px 600px;
+
+
+}
